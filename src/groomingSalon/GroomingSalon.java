@@ -45,7 +45,4 @@ public class GroomingSalon {
         return sb.toString().trim();
     }
 
-//    {name} {owner}
-//    {name} {owner}
-
 }
