@@ -40,7 +40,10 @@ public class GroomingSalon {
         StringBuilder sb = new StringBuilder("The grooming salon has the following clients:")
                 .append(System.lineSeparator());
         for (Pet pet : data) {
-            sb.append(pet.getName() + " " + pet.getOwner()).append(System.lineSeparator());
+            sb.append(pet.getName())
+                    .append(" ")
+                    .append(pet.getOwner())
+                    .append(System.lineSeparator());
         }
         return sb.toString().trim();
     }
